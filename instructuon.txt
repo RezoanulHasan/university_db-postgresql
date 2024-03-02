@@ -1,0 +1,38 @@
+Execute SQL queries to fulfill the ensuing tasks:
+Query 1:
+Insert a new student record with the following details:
+your info
+
+Query 2:
+Retrieve the names of all students who are enrolled in the course titled 'Next.js'.
+
+Query 3:
+Update the status of the student with the highest total (frontend_mark + backend_mark) mark to 'Awarded'
+
+Query 4:
+Delete all courses that have no students enrolled.
+
+
+Query 5:
+Retrieve the names of students using a limit of 2, starting from the 3rd student.
+
+
+Query 6:
+Retrieve the course names and the number of students enrolled in each course.
+
+Sample Output:
+
+course_name	students_enrolled
+Next.js	2
+React.js	2
+
+
+
+
+Query 7:
+Calculate and display the average age of all students.
+
+
+Query 8:
+Retrieve the names of students whose email addresses contain 'example.com'.
+
