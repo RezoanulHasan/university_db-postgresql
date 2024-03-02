@@ -5,7 +5,7 @@ This project involves the creation of a PostgreSQL database named "university_db
 
 ## Table Creation
 Three tables are created for this project:
-- `students` with fields: `student_id`, `student_name`, `age`, `email`,phone,passwoard, `frontend_mark`, `backend_mark`, and `status`.
+- `students` with fields: `student_id`, `student_name`, `age`, `email`, `phone`, `password`, `frontend_mark`, `backend_mark`, and `status`.
 - `courses` with fields: `course_id`, `course_name`, and `credits`.
 - `enrollment` with fields: `enrollment_id`, `student_id` (foreign key referencing `students`), and `course_id` (foreign key referencing `courses`).
 
@@ -22,7 +22,7 @@ The project includes several SQL queries to perform various tasks:
 7. Calculate and display the average age of all students.
 8. Retrieve names of students with email addresses containing 'example.com'.
 
-Feel free to execute these queries to explore the capabilities of the database.
+Please feel free to review these queries to explore the capabilities of the database.
 
 ## Usage
 1. Execute the SQL code for table creation and sample data insertion.
