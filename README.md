@@ -3,6 +3,11 @@
 ## Overview
 This project involves the creation of a PostgreSQL database named "university_db" to manage information about students, courses, and enrollments. The database consists of three tables: `students`, `courses`, and `enrollment`. Additionally, sample data is inserted into these tables, and various SQL queries are provided to perform tasks such as data manipulation and retrieval.
 
+
+## Database Setup
+1. Ensure PostgreSQL is installed on your system. If not, you can download it from [PostgreSQL official website](https://www.postgresql.org/download/).
+2. Create a new database  suitable name.
+3. 
 ## Table Creation
 Three tables are created for this project:
 - `students` with fields: `student_id`, `student_name`, `age`, `email`, `phone`, `password`, `frontend_mark`, `backend_mark`, and `status`.
